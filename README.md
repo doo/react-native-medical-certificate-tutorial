@@ -100,6 +100,13 @@ Since your application will work with high-resolution images, it is strongly rec
 </application>
 ```
 
+**OCR Support**
+
+The Medical Scanner requires OCR functionalities in order to work. As explained in our official documentation, you have to manually add the OCR data to your project, under ```android/app/src/main/assets/ocr_blobs```
+
+You can download the OCR files from tesseract official sources or directly from our example project:
+https://github.com/doo/scanbot-sdk-example-react-native/tree/master/android/app/src/main
+
 **Additional Steps**
 
 Before trying to run the app on Android, open it at least once on Android Studio, to let gradle do its magic.
