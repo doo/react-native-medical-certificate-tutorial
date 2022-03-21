@@ -136,7 +136,13 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
     }
+
+    packagingOptions {
+        pickFirst '**/libc++_shared.so'
+    }
+
     splits {
         abi {
             reset()
