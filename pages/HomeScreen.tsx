@@ -51,7 +51,7 @@ export class HomeScreen extends React.Component {
 
     async startMedicalCertificateScanner() {
         let config: MedicalCertificateScannerConfiguration = {
-          topBarBackgroundColor: Colors.SCANBOT_RED,
+          topBarBackgroundColor: '#c8193c',
           footerTitle: 'Scan your Medical Certificate',
           footerSubtitle: 'ScanbotSDK Demo',
           // aspectRatios: [
