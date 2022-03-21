@@ -279,7 +279,7 @@ In the HomeScreen you will find this method:
     async startMedicalCertificateScanner() {
 
         let config: MedicalCertificateScannerConfiguration = {
-          topBarBackgroundColor: Colors.SCANBOT_RED,
+          topBarBackgroundColor: '#c8193c',
           footerTitle: 'Scan your Medical Certificate',
           footerSubtitle: 'ScanbotSDK Demo',
           // aspectRatios: [
