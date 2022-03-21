@@ -132,11 +132,11 @@ Add a file called `react-native.config.js` in your project folder, with the foll
 
 ```javascript
 module.exports  = {
-	dependencies: {
-		'react-native-scanbot-sdk': {
-			platforms: {ios: null},
-		},
-	},
+    dependencies: {
+        'react-native-scanbot-sdk': {
+            platforms: {ios: null},
+         },
+    },
 };
 ```
 **2. Manually add the RNScanbotSDK pod**
@@ -206,7 +206,7 @@ Add this to your package.json:
 
 ```json
 "scripts": {
-	"postinstall": "patch-package"
+    "postinstall": "patch-package"
 },
 ```
 
