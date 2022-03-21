@@ -1,0 +1,23 @@
+diff --git a/node_modules/react-native-scanbot-sdk/RNScanbotSDK.podspec b/node_modules/react-native-scanbot-sdk/RNScanbotSDK.podspec
+index e915c5f..3bf4611 100644
+--- a/node_modules/react-native-scanbot-sdk/RNScanbotSDK.podspec
++++ b/node_modules/react-native-scanbot-sdk/RNScanbotSDK.podspec
+@@ -26,8 +26,6 @@ Pod::Spec.new do |s|
+ 
+     s.dependency 'React'
+ 
+-    s.dependency 'ScanbotSDK', ScanbotSDKVersion
+-
+     s.subspec 'OCR' do |ocr|
+       ocr.dependency 'ScanbotSDK/OCR', ScanbotSDKVersion
+       ocr.ios.vendored_frameworks = 'ScanbotSDK.framework'
+@@ -53,7 +51,8 @@ Pod::Spec.new do |s|
+     end
+ 
+     s.subspec 'NONE' do |none|
+-	  none.ios.vendored_frameworks = 'ScanbotSDK.framework'
++      none.dependency 'ScanbotSDK', ScanbotSDKVersion
++	    none.ios.vendored_frameworks = 'ScanbotSDK.framework'
+     end
+ 
+     s.default_subspec = 'NONE'

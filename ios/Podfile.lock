@@ -337,16 +337,10 @@ PODS:
     - React-jsi (= 0.67.4)
     - React-logger (= 0.67.4)
     - React-perflogger (= 0.67.4)
-  - RNScanbotSDK (4.11.3):
+  - RNScanbotSDK/ALL (4.11.3):
     - React
-    - RNScanbotSDK/NONE (= 4.11.3)
-    - ScanbotSDK (= 1.23.0)
-  - RNScanbotSDK/NONE (4.11.3):
-    - React
-    - ScanbotSDK (= 1.23.0)
-  - ScanbotSDK (1.23.0):
-    - ScanbotSDK/NONE (= 1.23.0)
-  - ScanbotSDK/NONE (1.23.0)
+    - ScanbotSDK/ALL (= 1.23.0)
+  - ScanbotSDK/ALL (1.23.0)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -405,7 +399,7 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
-  - RNScanbotSDK (from `../node_modules/react-native-scanbot-sdk`)
+  - RNScanbotSDK/ALL (from `../node_modules/react-native-scanbot-sdk`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -533,11 +527,11 @@ SPEC CHECKSUMS:
   React-RCTVibration: 3b52a7dced19cdb025b4f88ab26ceb2d85f30ba2
   React-runtimeexecutor: a9d3c82ddf7ffdad9fbe6a81c6d6f8c06385464d
   ReactCommon: 07d0c460b9ba9af3eaf1b8f5abe7daaad28c9c4e
-  RNScanbotSDK: c99c6bf97b6861e2eed5eac3e5e54a1c175d0f67
+  RNScanbotSDK: cf0b9ea1c846b6b561a581935f791b937dabfcf7
   ScanbotSDK: 1e3ce768af07ebd735ecb34688c079f7a4002111
   Yoga: d6b6a80659aa3e91aaba01d0012e7edcbedcbecd
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 7043a8f03cef164d5388953ff7e7a30ad0691d10
+PODFILE CHECKSUM: 2550cab8aa6e7cd90b8a0059d1c4e6928b7fcec3
 
 COCOAPODS: 1.10.1

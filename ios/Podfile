@@ -12,6 +12,9 @@ target 'MedicalCertificateDemo' do
     :hermes_enabled => false
   )
 
+  # Installs all the Scanbot SDK packages, including ML detection and OCR
+  pod 'RNScanbotSDK/ALL', :path => '../node_modules/react-native-scanbot-sdk'
+
   target 'MedicalCertificateDemoTests' do
     inherit! :complete
     # Pods for testing
